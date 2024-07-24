@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random horoscope generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Horoscope</h1>
+        <form id="horoscope-forms">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="month">Month</label>
+            <input type="month" id="month" required>
+            <button type="submit" value="submit" id="submit">Submit</button>
+        </form>
+        </div>
+    </div>
+    <div class="horoscope-container">
+        <p>Horoscope:</p>
+        <p id="horoscope" style="display: block;"></p>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
