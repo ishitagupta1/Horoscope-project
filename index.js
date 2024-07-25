@@ -70,5 +70,6 @@ if(monthName === "January"){
 
 const randomMessage = fortuneMessages[Math.floor(Math.random()*fortuneMessages.length)];
 document.getElementById('horoscope').innerHTML = `<p>${sign}:${randomMessage}</p>`
+document.getElementById('horoscope-forms').reset();
 }
 
